@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+/* 
+.navigation{
+    display: flex;
+    width:9.3%;
+    height: 500px;
+    background-color: #555;
+    padding-top: 200px;
+}
+
+.top-menu li{
+    display: list-item;
+    padding: 20px 30px;
+    list-style: none;
+    margin-top: 200px;
+}
+
+.menu{
+    float: left;
+    height: 700;
+}
+
+.menu li a{
+    display: block;
+    margin-top:7px;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: color 1s;
+}
+
+.menu li a:hover{
+    color: silver;
+}
+
+
+.menu li {
+    margin-top:-5px;
+    margin-left:-5px; 
+    height: 30px;
+    transition: background-color 0.5s;
+}
+.menu li:hover{
+    background-color: rgb(78, 78, 78);
+}
+
+.logo{
+    float: left;
+    margin-left: 70px;
+
+}
+
+.logo img{
+    height: 10%;
+    width: 10%;
+} */
+header {
+    background-color: rgb(70, 69, 69);
+    height: 70px; 
+}
+footer {
+    background-color: rgb(70, 69, 69);;
+    height: 70px;
+    flex: 0 0 auto;
+}
+
+.top-menu {
+    height: 700px;
+    width: 100%;
+    background-color: #555;
+}
+.top-menu .menu {
+    display: list-item;
+    margin-top: 50%;
+    width: 15%;
+}
+
+.top-menu li{
+    display:block;
+    width: 70px;
+    padding: 20px ;
+    list-style: none;
+}
+
+.menu li a{
+    display: block;
+    margin-top:7px;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: color 1s;
+}
+
+.menu li a:hover{
+    color: silver;
+}
+
+.menu li:hover{
+    background-color: rgb(78, 78, 78);
+}
+
+.content {
+  display: flex;
+  justify-items: start;
+
+}
+
+.article {
+    display: block;
+    width: 90%;
+    color: rgb(80, 127, 168);
+    margin-top: 150px;
+}
+
+.article .item {
+    display: block;
+    height: 50px;
+    justify-content: start;
+    margin: 10px;
+}
+
+
+ label {
+    margin-left: 25px;
+} 
+
+button {
+    margin-top: 150px;
+    margin-left: 25px;
+    background-color:rgb(80, 127, 168);
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+h3 {
+    margin-left: 25px;
+}
+
+img {
+    width: 20%;
+    height: auto;
+    margin-left: 25px;
+}
