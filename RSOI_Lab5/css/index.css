@@ -1,0 +1,93 @@
+.header_img{
+    /*position: relative;*/
+    width: 1500px;
+    height: 100px;
+}
+
+.footer_img{
+    position: relative;
+    width: 1500px;
+    height: 110px;
+    top: 20px;
+}
+.text_area{
+    height: 50px;
+}
+.form{
+    position: absolute;
+    top: 110px;
+    left: 600px;
+    width: 400px;
+    height: 150px;
+}
+
+.nav{
+    position: relative;
+    height: 550px;
+    width: 300px;
+    background-color: yellow;
+}
+
+.aside{
+    position: relative;
+    left: 1200px;
+    height: 550px;
+    width: 300px;
+    top: -550px;
+    background-color: yellow;
+}
+
+.aside_img{
+    width: 300px;
+    height: 550px;
+}
+
+.nav_links{
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+
+.body{
+    height: 550px;
+}
+
+.table{
+    position: absolute;
+    top: 110px;
+    left: 320px;
+    width: 400px;
+    height: 60px;
+}
+
+table{
+    margin-left: -280px;
+    margin-top: 20px;
+    width: 880px;
+    border-collapse: collapse;
+}
+
+table,th,td{
+    border: 2px solid black;
+}
+
+td{
+    position: relative;
+    text-align: center;
+}
+
+.clearAll{
+    position: relative;
+    left: 550px;
+    top: -150px;
+    width: 500px;
+    height: 50px;
+}
+
+.close{
+    position: relative;
+    left: 46px;
+    top: -220px;
+    width: 500px;
+    height: 50px;
+}

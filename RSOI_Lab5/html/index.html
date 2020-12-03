@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../css/index.css" rel="stylesheet">
+    <script src="../js/index.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div class="header">
+    <header>
+        <img class="header_img" src="../resource/med_1487009767_image.jpg">
+    </header>
+</div>
+<div class="body">
+    <div class="nav">
+        <nav>
+            <div class="nav_links">
+                <a>Главная</a><br>
+                <a href="../html/result.html">Результаты</a>
+            </div>
+        </nav>
+    </div>
+    <div class="aside">
+        <aside>
+            <img class="aside_img" src="../resource/JQyU2e4OOT4.jpg">
+        </aside>
+    </div>
+    <div class="form">
+        <p>Классы школы</p>
+
+        <label for="number">Номер класса</label><br>
+        <input required type="text" id="number" placeholder="Заполни меня"/><br><br>
+
+        <label for="students">Количество учащихся</label><br>
+        <input required type="text" id="students" placeholder="Заполни меня"/><br><br>
+
+        <label for="phone_number">Телефон</label><br>
+        <input required type="text" id="phone_number" placeholder="Заполни меня"/><br><br>
+
+        <label for="FIO">ФИО</label><br>
+        <input required type="text" id="FIO" placeholder="Заполни меня"/><br><br>
+
+
+        <div class="button">
+            <button onclick="insert(); ">Инсерт</button>
+            <button onclick="deleteRecord()">Удалить запись</button>
+            <button onclick="showAll()">Показать таблицу</button>
+            <button onclick="reloadSpecial()">Показать особые записи</button>
+            <button onclick="dropTable()">Дроп</button>
+            <button type="reset" onclick="reset(); ">Очистить форму</button>
+        </div>
+        <table id="myTable">
+            <tr>
+                <th>ID</th>
+                <th>Класс</th>
+                <th>Кол-во учеников</th>
+                <th>Номер телефона</th>
+                <th>ФИО классухи</th>
+                <th>Bruh</th>
+            </tr>
+        </table>
+    </div>
+    </div>
+</div>
+<div class="footer">
+    <footer>
+        <img class="footer_img" src="../resource/med_1487009767_image.jpg">
+    </footer>
+</div>
+</body>
+</html>
